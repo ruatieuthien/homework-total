@@ -1,0 +1,178 @@
+body {
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(117deg, rgba(118, 239, 241, 1) 0%, rgba(255, 223, 154, 1) 100%);
+}
+
+#right_content {
+    float: left;
+    width: 50%;
+}
+
+.left_content {
+    float: right;
+    width: 50%;
+}
+
+.h1_tieude_app {
+    font-size: 20px;
+    text-align: center;
+    animation: colorBackground 0.3 infinite;
+    -webkit-animation: colorBackground 3s infinite;
+    -moz-animation: colorBackground 3s infinite;
+    -o-animation: colorBackground 0.3s infinite;
+    margin-top: 30px;
+}
+@keyframes colorBackground {
+    0% {
+        background-color: #A9DFBF;
+        color: #E74C3C;
+    }
+
+    50% {
+        background-color: #F0B27A;
+        color: #2874A6;
+    }
+}
+.btn-them{
+    
+    animation: colorBackground 0.3 infinite;
+    -webkit-animation: colorBackground 3s infinite;
+    -moz-animation: colorBackground 3s infinite;
+    -o-animation: colorBackground 0.3s infinite;
+}
+._item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    height: 100px;
+    max-height: 100px;
+    position: relative;
+}
+
+b.tit {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+._item span {
+    font-size: 12px;
+}
+
+.btn-adding {
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 20px;
+    width: 22px;
+    height: 22px;
+    background-color: #ee4d2d;
+    color: #fff;
+    padding: 1px 5px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.giohang {
+    width: 400px;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+div#giohang-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+div#background {
+    background: #00000030;
+}
+
+form.formId {
+    padding-bottom: 10px;
+}
+div#background {
+    position: absolute;
+    background: #000000fc;
+    width: 100%;
+}
+
+div#background {
+    width: 30%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#formId input {
+    display: block;
+}
+
+input[type="text"] {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+
+button#luuKetQua {
+    margin-left: 15px;
+}
+
+a.xoa-btn {
+    display: block;
+    position: absolute;
+    background: #fff;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    top: -12px;
+    right: -15px;
+    cursor: pointer;
+}
+
+.btn-xoa-row {
+    top: 38px;
+    padding-left: 7px;
+    padding-top: 0px;
+    background-color: #c2c0c0;
+}
+
+.btn-edit-row.btn-adding {
+    top: 68px;
+    background: #e07f1c;
+    padding: 0px 7px;
+}
+#right_content {
+    float: left;
+    background-color: #fff;
+
+}
+.left_content {
+    float: right;
+    background-color: #D6EAF8;
+}
+.title{
+    animation: colorTitle 0.3 infinite;
+    -webkit-animation: colorTitle 3s infinite;
+    -moz-animation: colorTitle 3s infinite;
+    -o-animation: colorTitle 0.3s infinite;
+    font-size: 20px;
+}
+@keyframes colorTitle {
+    0% {
+        color: #E74C3C;
+    }
+
+    50% {
+        color: #2874A6;
+    }
+}
